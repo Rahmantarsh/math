@@ -1,0 +1,73 @@
+/* إعدادات عامة */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* إعدادات الهيدر */
+header {
+    background-color: #007acc;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1.2rem;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* إعدادات الأقسام */
+section {
+    padding: 20px;
+    margin: 10px auto;
+    max-width: 800px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* قائمة الألعاب */
+.games ul {
+    list-style: none;
+    padding: 0;
+}
+
+.games ul li {
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+}
+
+.games ul li a {
+    text-decoration: none;
+    color: #007acc;
+    font-weight: bold;
+}
+
+.games ul li a:hover {
+    color: #005f99;
+    text-decoration: underline;
+}
+
+/* الفوتر */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    margin-top: 20px;
+}
